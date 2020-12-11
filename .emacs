@@ -78,3 +78,5 @@
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
+;; Line wrapping
+(setq-default auto-fill-function 'do-auto-fill)
